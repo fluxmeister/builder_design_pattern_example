@@ -36,4 +36,67 @@ public class Account {
 		this.email = email;
 	}
 
+	/**
+	 * @return the id
+	 */
+	public int getId() {
+		return id;
+	}
+
+	/**
+	 * @return the email
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/**
+	 * @return the firstname
+	 */
+	public String getFirstname() {
+		return firstname;
+	}
+
+	/**
+	 * @return the middleNames
+	 */
+	public List<String> getMiddleNames() {
+		return middleNames;
+	}
+
+	/**
+	 * @return the surname
+	 */
+	public String getSurname() {
+		return surname;
+	}
+
+	/**
+	 * @return the houseNumber
+	 */
+	public int getHouseNumber() {
+		return houseNumber;
+	}
+
+	/**
+	 * @return the street
+	 */
+	public String getStreet() {
+		return street;
+	}
+
+	/**
+	 * @return the zipCode
+	 */
+	public String getZipCode() {
+		return zipCode;
+	}
+
+	/**
+	 * @return the city
+	 */
+	public String getCity() {
+		return city;
+	}
+
 }
