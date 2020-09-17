@@ -4,7 +4,7 @@
  * 
  */
 package com.philipstarrit.clean.code;
-
+import com.google.common.collect.ImmutableList;
 import com.philipstarrit.clean.code.builder.Name;
 
 /**
@@ -20,7 +20,10 @@ public class App {
 
 //		Account account = new Account(1, "philip", null, "starritt", 50, "FooBar Road", "", "belfast", "cool@email.com");
 		
-		new Name.Builder().firstName
+		Name name = new Name.Builder().firstName("philip")
+										.middleNames(ImmutableList.of("peter"))
+										.surname("starritt")
+										.build();
 		
 	}
 

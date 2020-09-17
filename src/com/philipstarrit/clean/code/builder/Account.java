@@ -20,7 +20,7 @@ public class Account {
 	private final Name name;
 
 	
-	/* Constructor */
+	/* private Constructor */
 	private Account(Builder builder) {
 		this.id = builder.id;
 		this.email = builder.email;
