@@ -3,10 +3,12 @@
  * vektorwebsolutions.com/determinator
  * 
  */
+package com.philipstarrit.clean.code;
+
 import java.util.ArrayList;
 import java.util.List;
 import com.google.common.collect.ImmutableList;
-package com.philipstarrit.clean.code;
+
 
 import com.philipstarrit.clean.code.builder.Address;
 import com.philipstarrit.clean.code.builder.Name;
