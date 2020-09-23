@@ -5,11 +5,8 @@
  */
 package com.philipstarrit.clean.code;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.google.common.collect.ImmutableList;
-
-
+import com.philipstarrit.clean.code.builder.Account;
 import com.philipstarrit.clean.code.builder.Address;
 import com.philipstarrit.clean.code.builder.Name;
 
@@ -27,12 +24,20 @@ public class App {
 //		Account account = new Account(1, "philip", null, "starritt", 50, "FooBar Road", "", "belfast", "cool@email.com");
 		
 		Name name = new Name.Builder().firstName("philip")
-										.middleNames(ImmutableList.of("peter"))
-										.surname("starritt")
-										.build();
+									  .middleNames(ImmutableList.of("peter"))
+									  .surname("starritt")
+									  .build();
 		
 		Address address = new Address.Builder().city("Belfast")
-												.houseNumber(111)
+											   .houseNumber(111)
+											   .zipCode("123")
+											   .street("Belfast Street")
+											   .build();
+		
+		Account acount = new Account.Builder().address(address)
+											  .name(name)
+											  .email(email)=
+				;
 	}
 
 }
