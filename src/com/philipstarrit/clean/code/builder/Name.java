@@ -19,7 +19,7 @@ public class Name {
 
 	
 	private Name(Builder builder) {
-		this.firstName = builder.firstName();
+		this.firstName = builder.firstName;
 		this.middleNames = builder.middleNames;
 		this.surname = builder.surname;
 	}
@@ -56,15 +56,23 @@ public class Name {
 			return this;
 		}
 
-		public Name firstName(String string) {
-			// TODO Auto-generated method stub
-			return null;
+		
+
+		public Builder middleNames(final List<String> middleNames) {
+			this.middleNames = middleNames;
+			return this;
 		}
 		
+		public Builder surname(final String surname) {
+			this.surname = surname;
+			return this;
+		}
 		
-		
-		
+		public Name build() {
+			return new Name(this);
+		}
 		
 	}
 	
 }
+

@@ -5,8 +5,6 @@
  */
 package com.philipstarrit.clean.code.builder;
 
-import java.util.List;
-
 /**
  * @author fluxmeister
  *
@@ -81,6 +79,10 @@ public class Address {
 			return this;
 		}
 
+		public Address build() {
+			return new Address(this);
+		}
+		
 	}
 
 }

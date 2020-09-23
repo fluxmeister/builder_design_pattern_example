@@ -36,7 +36,9 @@ public class App {
 		
 		Account acount = new Account.Builder().address(address)
 											  .name(name)
-											  .email(email)=
+											  .email("philip@email.com")
+											  .id(1)
+											  .build();
 				;
 	}
 
