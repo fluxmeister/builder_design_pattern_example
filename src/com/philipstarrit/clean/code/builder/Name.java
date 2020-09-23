@@ -21,6 +21,7 @@ public class Name {
 	private Name(Builder builder) {
 		this.firstName = builder.firstName();
 		this.middleNames = builder.middleNames();
+		this.surname = builder.surname;
 	}
 	
 	/**
