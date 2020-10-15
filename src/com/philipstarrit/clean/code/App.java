@@ -34,12 +34,14 @@ public class App {
 											   .street("Belfast Street")
 											   .build();
 		
-		Account acount = new Account.Builder().address(address)
+		Account account = new Account.Builder().address(address)
 											  .name(name)
 											  .email("philip@email.com")
 											  .id(1)
 											  .build();
-				;
+		
+		System.out.println(account.toString());
+		
 	}
 
 }
