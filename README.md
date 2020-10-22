@@ -1,7 +1,7 @@
 # design_patterns
 <h1>Java Clean Code Tutorial #3 - Builder Design Pattern Example</h1>
 
-https://www.youtube.com/watch?v=xy6FUwftz1Q
+<a href="https://www.youtube.com/watch?v=xy6FUwftz1Q" target="_blank">YouTube link</a>
 
 * 24.09.2020. - Added guava.jar into root
 -> 23.09.2020. - Added Guava jar to buildpath
@@ -20,6 +20,4 @@ Software is written once and read hundreds of times. So let's make our fellow de
 "He just explained the builder pattern of Joshua Bloch from Effective Java"
 
 "The main purpose was to explain the core concepts of the design pattern. I'm sure you already know but you can use the extremely popular java library Lombok to generate this boilerplate code - 1 annotation, @Builder is all you need. But I'm quite surprised you don't see any real value in this common pattern, most engineers do. And a large range of great libraries use builders heavily such as gRPC and all the newer spring config etc. Maybe it's worth a second look , hope this helps" 
-
-"The main purpose was to explain the core concepts of the design pattern. I'm sure you already know but you can use the extremely popular java library Lombok to generate this boilerplate code - 1 annotation, @Builder is all you need. But I'm quite surprised you don't see any real value in this common pattern, most engineers do. And a large range of great libraries use builders heavily such as gRPC and all the newer spring config etc. Maybe it's worth a second look , hope this helps"
 
