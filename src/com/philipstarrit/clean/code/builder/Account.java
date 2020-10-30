@@ -20,47 +20,6 @@ public class Account {
 	private final Name name;
 
 	
-	/* private constructor to enforce object creation through builder */
-	private Account(Builder builder) {
-		this.id = builder.id;
-		this.email = builder.email;
-		this.address = builder.address;
-		this.name = builder.name;
-	}
-
-	/**
-	 * @return the id
-	 */
-	public int getId() {
-		return id;
-	}
-
-	/**
-	 * @return the email
-	 */
-	public String getEmail() {
-		return email;
-	}
-
-	/**
-	 * @return the address
-	 */
-	public Address getAddress() {
-		return address;
-	}
-
-	/**
-	 * @return the name
-	 */
-	public Name getName() {
-		return name;
-	}
-	
-	
-	
-	
-	
-
 	public static class Builder {
 
 		private int id;
@@ -86,15 +45,21 @@ public class Account {
 			return this;
 		}
 
-		//return fully build object
+		//return fully built object
 		public Account build() {
 			return new Account(this);
 		}
 
 	}
-
-
-
+	
+	
+	/* private constructor to enforce object creation through builder */
+	private Account(Builder builder) {
+		this.id = builder.id;
+		this.email = builder.email;
+		this.address = builder.address;
+		this.name = builder.name;
+	}
 
 
 
