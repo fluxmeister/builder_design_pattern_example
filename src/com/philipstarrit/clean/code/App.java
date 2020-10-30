@@ -40,7 +40,7 @@ public class App {
 											  .id(1)
 											  .build();
 		
-		System.out.println(account.toString());
+		System.out.println(account);
 		
 	}
 

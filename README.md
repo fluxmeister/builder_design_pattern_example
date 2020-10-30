@@ -3,6 +3,7 @@
 
 <a href="https://www.youtube.com/watch?v=xy6FUwftz1Q" target="_blank">YouTube link</a>
 
+* 30.10.2020. - Making code completely functional
 * 24.09.2020. - Added guava.jar into root
 -> 23.09.2020. - Added Guava jar to buildpath
 * 23.09.2020. - Complete code as seen on youtube.
